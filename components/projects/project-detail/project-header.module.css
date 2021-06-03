@@ -1,0 +1,32 @@
+.header {
+  padding-bottom: 1.25rem;
+  border-bottom: 6px solid var(--red);
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: black;
+  margin: auto;
+  line-height: initial;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .header h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    margin: 2rem 0;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 425px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+}
