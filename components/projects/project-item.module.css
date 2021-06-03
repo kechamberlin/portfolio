@@ -1,0 +1,56 @@
+.project {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: var(--darkgray);
+  text-align: center;
+
+  border-radius: 4px;
+}
+
+.project a {
+  color: whitesmoke;
+}
+
+.image {
+  width: 100%;
+  max-height: 20rem;
+  overflow: hidden;
+  opacity: 0.85;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.image:hover {
+  opacity: 1;
+}
+
+.image img {
+  object-fit: cover;
+}
+
+.content {
+  padding: 1rem;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.content h3 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+
+.projectLinks {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectLinks a {
+  padding: 10px 14px;
+  margin: 0 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.projectLinks a:hover {
+  opacity: 0.7;
+}
