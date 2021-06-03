@@ -1,0 +1,47 @@
+.icons {
+  display: flex;
+  gap: 4rem;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2.75rem;
+}
+
+.github {
+  color: var(--github);
+  transition: all 0.2s ease-in-out;
+}
+
+.github:hover {
+  opacity: 0.75;
+}
+
+.linkedin {
+  color: var(--linkedin);
+  transition: all 0.2s ease-in-out;
+}
+
+.linkedin:hover {
+  opacity: 0.75;
+}
+
+.email {
+  color: var(--gmail);
+  transition: all 0.2s ease-in-out;
+}
+
+.email:hover {
+  opacity: 0.75;
+}
+
+@media (max-width: 768px) {
+  .icons {
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .icons {
+    font-size: 2rem;
+  }
+}
