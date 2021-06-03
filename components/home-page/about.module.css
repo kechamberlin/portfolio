@@ -1,0 +1,48 @@
+.heading {
+  padding: 5%;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto 6rem;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.heading h1 {
+  font-size: 2rem;
+  color: var(--black);
+  text-align: center;
+  margin-top: 0;
+}
+
+.heading h1::after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 5px;
+  background-color: var(--red);
+  margin: auto;
+}
+
+.heading p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .heading h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .heading p {
+    font-size: 14px;
+  }
+}
