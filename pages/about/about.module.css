@@ -1,0 +1,68 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  width: 95%;
+  max-width: 60rem;
+  margin: 2rem auto;
+  font-size: 1.25rem;
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+
+.section h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.section h1:after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 5px;
+  background-color: var(--red);
+  margin: auto;
+}
+
+.section h2::after {
+  content: '';
+  display: block;
+  width: 15rem;
+  height: 3px;
+  background-color: var(--red);
+}
+
+.section h4 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.section li {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 2rem;
+  }
+
+  .section h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  .section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .section h4 {
+    font-size: 1.1rem;
+  }
+}
