@@ -1,0 +1,122 @@
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  user-select: none;
+}
+
+.section ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  column-gap: 3rem;
+
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.section li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.section span {
+  font-size: 2.5rem;
+}
+
+.section p {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 900;
+}
+
+.html {
+  color: #f4470b;
+}
+
+.css {
+  color: #2091eb;
+}
+
+.javascript {
+  color: #efd81d;
+}
+
+.react {
+  color: #5fd5f6;
+}
+
+.next {
+  color: #000000;
+}
+
+.gatsby {
+  color: #663299;
+}
+
+.node {
+  color: #689f63;
+}
+
+.graphql {
+  color: #e10d98;
+}
+
+.apollo {
+  color: #2f353f;
+}
+
+.mongodb {
+  color: #14aa52;
+}
+
+.sanity div {
+  color: white;
+  background: #f03e2f;
+  border-radius: 50%;
+  width: 1.2em;
+  margin: auto;
+}
+
+.keystone div {
+  color: white;
+  background: #349cfe;
+  border-radius: 25%;
+  font-weight: 900;
+  width: 1.2em;
+  margin: auto;
+  text-align: center;
+}
+
+.github {
+  color: #242a2e;
+}
+
+.npm {
+  color: #cb3837;
+}
+
+.netlify {
+  color: #25bbb2;
+}
+
+@media (max-width: 768px) {
+  .section p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .section p {
+    font-size: 14px;
+  }
+}
