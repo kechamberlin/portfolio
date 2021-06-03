@@ -1,16 +1,41 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&display=swap');
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  line-height: 1.4;
+}
+
 body {
-  padding: 0;
+  background-color: #fcfcfc;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0 8%;
+  font-family: 'Montserrat', sans-serif;
+
+  --red: #e3020c;
+  --black: #100a0d;
+  --darkgray: #383838;
+  --lightergray: hsl(265, 19%, 88%);
+  --github: #242a2e;
+  --linkedin: #0966c2;
+  --gmail: #ea4335;
+
+  --color-success-100: #a2f0bc;
+  --color-success-500: #12bd4b;
+
+  --color-error-100: #f1acc9;
+  --color-error-500: #a10c4a;
+}
+
+h1 {
+  letter-spacing: 0.0625em;
+  font-family: 'Cinzel', serif;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+button {
+  font: inherit;
+  cursor: pointer;
 }
