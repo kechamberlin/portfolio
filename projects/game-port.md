@@ -17,6 +17,7 @@ A video game library where users can search over half a million games.
 - Instantly search for your favorite games or discover new ones
 - View the summary, Metacritic score, and other basic information for the queried game
 - Find other games in the series
+- Uses session storage to minimize requests sent to the API
 
 ## Features To Be Added
 
