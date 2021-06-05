@@ -7,3 +7,9 @@
   gap: 2rem;
   align-content: center;
 }
+
+@media (max-width: 320px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+}
