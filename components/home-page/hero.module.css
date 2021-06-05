@@ -78,7 +78,7 @@
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     gap: 0;
   }
